@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
+  "public_header_files": "MTSDAutoLayout/Framework/MTSDAutoLayout.framework/Headers/**/*.h",
   "ios": {
     "vendored_frameworks": "MTSDAutoLayout/Framework/MTSDAutoLayout.framework"
   },

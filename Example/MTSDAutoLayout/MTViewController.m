@@ -19,6 +19,9 @@
 {
     [super viewDidLoad];
 
+    
+    self.view.size_sd = CGSizeZero;
+    
 }
 
 

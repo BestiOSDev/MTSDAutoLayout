@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTSDAutoLayout'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MTSDAutoLayout.framework'
 
 
@@ -24,10 +24,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   
   if ENV['IS_SOURCE']
-	  s.source_files = 'MTSDAutoLayout/Classes/**/*{h,m}'
-	  s.public_header_files = 'MTSDAutoLayout/Classes/**/*.h'
-	  else
-	  s.ios.vendored_frameworks = 'MTSDAutoLayout/Framework/MTSDAutoLayout.framework'
+      s.source_files = 'MTSDAutoLayout/Classes/**/*{h,m}'
+      s.public_header_files = 'MTSDAutoLayout/Classes/**/*.h'
+      else
+      s.public_header_files = 'MTSDAutoLayout/Framework/MTSDAutoLayout.framework/Headers/**/*.h'
+      s.ios.vendored_frameworks = 'MTSDAutoLayout/Framework/MTSDAutoLayout.framework'
   end
   
   s.requires_arc = true
