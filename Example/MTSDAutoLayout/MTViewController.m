@@ -6,8 +6,8 @@
 //  Copyright (c) 2019 ZhaoBingDong. All rights reserved.
 //
 
-#import "MTSDAutoLayout.h"
 #import "MTViewController.h"
+#import <MTSDAutoLayout/MTSDAutoLayout.h>
 
 @interface MTViewController ()
 

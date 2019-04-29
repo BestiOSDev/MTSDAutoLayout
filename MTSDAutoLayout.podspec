@@ -22,8 +22,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/BestiOSDev/MTSDAutoLayout.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'MTSDAutoLayout/Classes/**/*'
   
   if ENV['IS_SOURCE']
 	  s.source_files = 'MTSDAutoLayout/Classes/**/*{h,m}'
