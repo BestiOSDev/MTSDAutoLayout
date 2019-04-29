@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   MTSDAutoLayout静态库二进制文件 提高编译速度
                        DESC
 
-  s.homepage         = 'https://github.com/ZhaoBingDong/MTSDAutoLayout'
+  s.homepage         = 'https://github.com/BestiOSDev/MTSDAutoLayout'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZhaoBingDong' => 'dzb8818082@163.com' }
-  s.source           = { :git => 'https://github.com/ZhaoBingDong/MTSDAutoLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BestiOSDev/MTSDAutoLayout.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
