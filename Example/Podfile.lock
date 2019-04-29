@@ -1,0 +1,16 @@
+PODS:
+  - MTSDAutoLayout (0.1.0)
+
+DEPENDENCIES:
+  - MTSDAutoLayout (from `../`)
+
+EXTERNAL SOURCES:
+  MTSDAutoLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTSDAutoLayout: 5ea329fcd47801e021ce687459288c30385624de
+
+PODFILE CHECKSUM: a3babcac64f83db5730967abbe22cabb37d5750b
+
+COCOAPODS: 1.5.3
