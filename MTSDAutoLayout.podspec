@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTSDAutoLayout'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'MTSDAutoLayout.framework'
 
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author           = { 'ZhaoBingDong' => 'dzb8818082@163.com' }
   s.source           = { :git => 'https://github.com/BestiOSDev/MTSDAutoLayout.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   
   if ENV['IS_SOURCE']
       s.source_files = 'MTSDAutoLayout/Classes/**/*{h,m}'

@@ -1,6 +1,0 @@
-framework module MTSDAutoLayout {
-  umbrella header "MTSDAutoLayout.h"
-
-  export *
-  module * { export * }
-}
